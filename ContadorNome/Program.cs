@@ -10,6 +10,10 @@ namespace ContadorNome
     {
         static void Main(string[] args)
         {
+            Console.Write("Digite seu nome: ");
+            string nome = Console.ReadLine();
+            int tamanho = nome.Length;
+            Console.WriteLine("Seu nome possui {0} caracteres", tamanho);
         }
     }
 }
